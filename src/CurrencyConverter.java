@@ -51,7 +51,7 @@ public class CurrencyConverter {
 
         HttpRequest request = HttpRequest.newBuilder() // use api-ninjas from RapidAPI to obtain exchange rates.
                 .uri(URI.create("https://currency-converter-by-api-ninjas.p.rapidapi.com/v1/convertcurrency?have=" + fromCode + "&want=" + toCode + "&amount=" + amount))
-                .header("X-RapidAPI-Key", "134b1fd11emsh029e6dfc553a918p14e249jsn31d52d8499a1")
+                .header("X-RapidAPI-Key", )
                 .header("X-RapidAPI-Host", "currency-converter-by-api-ninjas.p.rapidapi.com")
                 .method("GET", HttpRequest.BodyPublishers.noBody())
                 .build();
